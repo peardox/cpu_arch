@@ -24,6 +24,13 @@ Build Target: x86-64 (Build Target)
 Runtime Detection: x86-64
 ```
 
+#### wsl file the result...
+
+```
+/mnt/c/src/cpu_arch$ file build_x64/bin/X86_64/Release/CPUArchitectureDetector.exe
+build_x64/bin/X86_64/Release/CPUArchitectureDetector.exe: PE32+ executable (console) x86-64, for MS Windows, 6 sections
+```
+
 ### For ARM64EC
 cmake -B build_arm64ec -G "Visual Studio 17 2022" -A ARM64EC
 
@@ -36,6 +43,13 @@ PS C:\Users\simon\cpu_arch> .\build_arm64ec\bin\ARM64EC\Release\CPUArchitectureD
 === CPU Architecture Detector ===
 Build Target: ARM64EC (Build Target)
 Runtime Detection: x86-64
+```
+
+#### wsl file the result...
+
+```
+/mnt/c/src/cpu_arch$ file build_arm64ec/bin/ARM64EC/Release/CPUArchitectureDetector.exe
+build_arm64ec/bin/ARM64EC/Release/CPUArchitectureDetector.exe: PE32+ executable (console) x86-64, for MS Windows, 8 sections
 ```
 
 ### For Arm64 
@@ -52,3 +66,9 @@ Build Target: ARM64 (Build Target)
 Runtime Detection: ARM64
 ```
 
+#### wsl file the result...
+
+```
+/mnt/c/src/cpu_arch$ file build_arm64/bin/ARM64/Release/CPUArchitectureDetector.exe
+build_arm64/bin/ARM64/Release/CPUArchitectureDetector.exe: PE32+ executable (console) Aarch64, for MS Windows, 6 section
+```
