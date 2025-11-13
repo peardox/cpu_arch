@@ -39,7 +39,7 @@ cmake --build build_arm64ec --config Release
 ### Sample output (On Win11 Arm64)
 
 ```
-PS C:\Users\simon\cpu_arch> .\build_arm64ec\bin\ARM64EC\Release\CPUArchitectureDetector.exe
+PS C:\src\cpu_arch> .\build_arm64ec\bin\ARM64EC\Release\CPUArchitectureDetector.exe
 === CPU Architecture Detector ===
 Build Target: ARM64EC (Build Target)
 Runtime Detection: x86-64
@@ -60,7 +60,7 @@ cmake --build build_arm64 --config Release
 ### Sample output (On Win11 Arm64)
 
 ```
-PS C:\Users\simon\cpu_arch> .\build_arm64\bin\ARM64\Release\CPUArchitectureDetector.exe`
+PS C:\src\cpu_arch> .\build_arm64\bin\ARM64\Release\CPUArchitectureDetector.exe`
 === CPU Architecture Detector ===
 Build Target: ARM64 (Build Target)
 Runtime Detection: ARM64
