@@ -4,6 +4,9 @@ Note that if you get any compiler not found errors you need Visual Studio 2022 w
 
 This can easily be converted to a DLL...
 
+Visual Studio CE 2022 has just been superseeded by 2026
+2022 is still available - got mine via this (GIST)[https://gist.github.com/Chenx221/6f4ed72cd785d80edb0bc50c9921daf7]
+
 ### For x86-64 
 cmake -B build_x64 -G "Visual Studio 17 2022" -A x64
 
