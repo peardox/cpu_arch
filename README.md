@@ -8,6 +8,8 @@ Visual Studio CE 2022 has just been superseeded by 2026
 
 2022 is still available - got mine via this [GIST](https://gist.github.com/Chenx221/6f4ed72cd785d80edb0bc50c9921daf7)
 
+Compliles for x86-64\/[Arm64EC](https://learn.microsoft.com/en-us/windows/arm/arm64ec)\/Arm64 - will happily cross-compile
+
 ### For x86-64 
 cmake -B build_x64 -G "Visual Studio 17 2022" -A x64
 
