@@ -11,9 +11,11 @@ Visual Studio CE 2022 has just been superseded by 2026 (when I wrote this)
 Compliles for x86-64\/[Arm64EC](https://learn.microsoft.com/en-us/windows/arm/arm64ec)\/Arm64 - will happily cross-compile
 
 ### For x86-64 
-cmake -B build_x64 -G "Visual Studio 17 2022" -A x64
 
+```
+cmake -B build_x64 -G "Visual Studio 17 2022" -A x64
 cmake --build build_x64 --config Release
+```
 
 ### Sample output (On Win11 x86-64)
 
@@ -32,9 +34,11 @@ build_x64/bin/X86_64/Release/CPUArchitectureDetector.exe: PE32+ executable (cons
 ```
 
 ### For ARM64EC
-cmake -B build_arm64ec -G "Visual Studio 17 2022" -A ARM64EC
 
+```
+cmake -B build_arm64ec -G "Visual Studio 17 2022" -A ARM64EC
 cmake --build build_arm64ec --config Release
+```
 
 ### Sample output (On Win11 Arm64)
 
@@ -53,9 +57,11 @@ build_arm64ec/bin/ARM64EC/Release/CPUArchitectureDetector.exe: PE32+ executable 
 ```
 
 ### For Arm64 
-cmake -B build_arm64 -G "Visual Studio 17 2022" -A ARM64
 
+```
+cmake -B build_arm64 -G "Visual Studio 17 2022" -A ARM64
 cmake --build build_arm64 --config Release
+```
 
 ### Sample output (On Win11 Arm64)
 
