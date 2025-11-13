@@ -12,9 +12,9 @@ cmake --build build_x64 --config Release
 ##### Sample output (On Win11 x86-64)
 
 > PS C:\src\cpu_arch> .\build_x64\bin\X86_64\Release\CPUArchitectureDetector.exe
-> === CPU Architecture Detector ===
-> Build Target: x86-64 (Build Target)
-> Runtime Detection: x86-64
+=== CPU Architecture Detector ===
+Build Target: x86-64 (Build Target)
+Runtime Detection: x86-64
 
 ### For ARM64EC
 cmake -B build_arm64ec -G "Visual Studio 17 2022" -A ARM64EC
