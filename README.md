@@ -39,7 +39,7 @@ Runtime Detection: x86-64
 ```
 
 ### For Arm64 
-cmake -B build_arm64ec -G "Visual Studio 17 2022" -A ARM64
+cmake -B build_arm64 -G "Visual Studio 17 2022" -A ARM64
 
 cmake --build build_arm64 --config Release
 
