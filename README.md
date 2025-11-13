@@ -4,7 +4,7 @@ Note that if you get any compiler not found errors you need Visual Studio 2022 w
 
 This can easily be converted to a DLL...
 
-Visual Studio CE 2022 has just been superseded by 2026
+Visual Studio CE 2022 has just been superseded by 2026 (when I wrote this)
 
 2022 is still available - got mine via this [GIST](https://gist.github.com/Chenx221/6f4ed72cd785d80edb0bc50c9921daf7)
 
